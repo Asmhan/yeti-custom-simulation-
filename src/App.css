@@ -1,0 +1,332 @@
+.App {
+  text-align: center;
+}
+.top-title {
+  background-color: #0a253e;
+  color: white;
+  line-height: 1.2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Proxima Nova Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: .9rem;
+  z-index: 6;
+  background: #0a253e;
+  padding: .5em;
+  text-align: center;
+  height: 44px;
+}
+header {
+    position: fixed;
+    top: 44px;
+    right: 0;
+    left: 0;
+    z-index: 4;
+    /*padding: 23.5px 0;*/
+    background: #fff;
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    transition: border-color 150ms ease;
+    border-color: #0a253e;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 1px;
+}
+header .container {
+    height: 100%;
+    position: relative;
+}
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header a.logo {
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap;
+    height: 58px;
+    width: 56px;
+    background-image: url(https://ycs-static-dev.imgix.net/webstore/logo/logo-ycs-badge.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    margin-top: -12.5px;
+}
+
+h2 {
+    color: #39444b;
+    font-weight: bold;
+    margin: .5em 0;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-top: 15px!important;
+    line-height: 1.2;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tag1 {
+  background-color: #8e9ea8;
+  /*top: -.4rem;*/
+  padding: 1px 4px;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  font: 11px/16px "Proxima Nova Extra Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+  white-space: nowrap;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+footer section {
+    text-align: center;
+    padding-top: 1em;
+}
+footer a.logo {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  height: 79px;
+  width: 76px;
+  background-image: url(https://ycs-static-dev.imgix.net/webstore/logo/logo-ycs-badge-white.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  margin: 0 auto 1rem;
+  float: right;
+}
+.nav-item:hover {
+  color:  #ef5f25!important;
+  border: 0px solid red!important;
+  border-bottom-width: 2px!important;
+  height: 110px!important;
+}
+.nav-item:active {
+  color: #aa9766;
+}
+.action-buttons {
+  font-weight: 700!important;
+  font-size: 1rem!important;
+  line-height: 2!important;
+  white-space: nowrap!important;
+  padding: 2px 0.5em 0!important;
+  font-style: normal!important;
+  text-decoration: none !important;
+  background-color: #08607f!important;
+  border: 0!important;
+  border-radius: 0!important;
+  color: #fff!important;
+  cursor: pointer!important;
+  display: inline-block!important;
+}
+.flex-container {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+footer section {
+   float: left;
+   display: block;
+   margin-right: 2.35765%;
+   /*width: 31.76157%;*/
+   text-align: left;
+}
+footer {
+  background-color: #0a253e;
+  color: #fff;
+  font-size: 0.8em;
+  width: 100%;
+  line-height: 1.8;
+}
+footer h4 {
+    font-size: 1.8em;
+    color: #fff;
+    text-transform: uppercase;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer a {
+  color: white;
+}
+footer nav li a {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-family: "Proxima Nova Extra Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.divider a{
+  background-color: #0a253e!important;
+  border: solid #0a253e!important;
+  border-width: 0 1.5rem!important;
+  color: #a3c7d2!important;
+  display: inline-block!important;
+  font-family: "Proxima Nova Extra Condensed","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  font-size: 2em!important;
+  position: relative!important;
+  text-transform: uppercase!important;
+  z-index: 1!important;
+}
+footer .copyright {
+   color: #a3c7d2;
+    padding-bottom: 2em;
+    text-align: center;
+    font-size: .9em;
+}
+footer .copyright-link {
+    color: #a3c7d2;
+    text-decoration: underline;
+}
+.copyright-item {
+  margin-right: 1em;
+}
+label {
+  font-family: "Proxima Nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  color: #08607f;
+  font-size: .9rem;
+  margin-bottom: 0.1625rem;
+  position: relative;
+  text-align: left;
+}
+.design-preview {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #d6dce0;
+    min-height: 248px;
+    line-height: 1;
+    text-align: center;
+    padding: 60px 0 10px;
+    position: relative;
+}
+.design-preview .supplementary {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    left: -1px;
+    margin: 0;
+}
+.supplementary {
+    padding: 1em;
+    background: #e7f1f4;
+    border: 1px solid #d6dce0;
+    color: #060606;
+    font-size: .8em;
+}
+.design-preview .prepared-preview img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-height: 248px;
+}
+.design-preview img[data-zoom] {
+    cursor: zoom-in;
+}
+.design-selection .design-item .design-wrapper .tags {
+    position: absolute;
+    top: .5rem;
+    left: 0;
+    right: 0;
+}
+.tag{
+    display: inline-block;
+    padding: 1px 4px 0;
+    background-color: #08607f;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font: 11px/16px "Proxima Nova Extra Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    white-space: nowrap;
+}
+.prepared-design-name {
+  color: #08607f;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  margin: 0 0;
+  text-transform: uppercase;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  font-size: .9rem;
+}
+@media screen and (min-width: 600px){
+  .top-title {
+      height: 52px;
+      font-size: 1rem;
+
+  }
+  header {
+      top: 52px;
+  }
+  header a.logo {
+      height: 43px;
+      width: 227px;
+      background-image:  url(https://ycs-static-dev.imgix.net/webstore/logo/logo-ycs-horizontal.svg);
+      margin-top: -5px;
+  }
+  h2 {
+    font-size: 1.5em!important;
+  }
+}
+@media screen and (min-width: 900px){
+  header {
+    /*padding: 38.5px 0;*/
+    height: 110px;
+ }
+ h2 {
+   margin: .5em 0;
+ }
+ footer a.logo {
+    height: 36px;
+    width: 186px;
+    background-image: url(https://ycs-static-dev.imgix.net/webstore/logo/logo-ycs-horizontal-white.svg);
+    margin-left: 0;
+ }
+ .design-type {
+    display: flex;
+    align-items: stretch;
+  }
+ .design-preview {
+    min-height: 360px;
+ }
+ .design-preview {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+ }
+ .design-editor, .design-preview {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+ }
+}
