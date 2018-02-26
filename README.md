@@ -6,4 +6,4 @@ then
 - yarn
 - yarn start
 - that's work on http://localhost:3000/
-# [The DEMO](obsequious-snakes.surge.sh)
+# [The DEMO](http://obsequious-snakes.surge.sh)
